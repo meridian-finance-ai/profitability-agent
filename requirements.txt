@@ -1,7 +1,18 @@
-pandas>=2.2
-numpy>=1.26
+duckdb>=1.1.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+streamlit>=1.35.0
+plotly>=5.20.0
+statsmodels>=0.14.0
+scipy>=1.10.0
+pywebview>=5.0.0
+pyinstaller>=6.0.0
 pyyaml>=6.0
-
-# Optional - only if workstream A wants an in-process SQL engine for the
-# semantic layer. Not required by the generator or the eval harness.
-# duckdb>=1.0
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+joblib>=1.3.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.8.0
+pytest>=8.0.0
+httpx>=0.27.0
